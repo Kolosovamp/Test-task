@@ -1,0 +1,8 @@
+!/bin/bash
+
+git clone https://github.com/duckietown/gym-duckietown.git  
+cd gym-duckietown
+pip install -e .
+
+cp ../test_task_duckiebot.py ./ex*
+python3 ex*/test_task_duckiebot.py
